@@ -1,0 +1,75 @@
+/*
+ * Navbar
+ * ------------------------------ */
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  min-height: 36px;
+  position: absolute;
+  background: #fff;
+  color: #bbb;
+  border-bottom: 1px solid #ddd;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbar-left {
+  position: absolute;
+  left: 10px;
+  top: 20px;
+}
+
+.navbar-right {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.navbar-center {
+  max-width: 50vw;
+}
+
+.navbar h1 {
+  margin: 0;
+  color: #bbb;
+  max-width: 60vw;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.navbar-icon {
+  font-style: normal;
+  font-size: 24px;
+  line-height: 0;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.navbar form[disabled] {
+  opacity: .5;
+  pointer-events: none;
+}
+
+.navbar input[type="file"] {
+  background: pink;
+  width: 105px;
+  height: 37px;
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.navbar-btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 8px 10px !important;
+  margin-top: 3px;
+  font-size: 12px;
+}

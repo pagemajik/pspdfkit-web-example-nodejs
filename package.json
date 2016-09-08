@@ -1,0 +1,24 @@
+{
+  "name": "web-example-nodejs",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "start:dev": "DEBUG=pspdfkt-web-example-node-js:* nodemon ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.1",
+    "cookie-parser": "^1.4.3",
+    "debug": "^2.2.0",
+    "dirty": "^1.1.0",
+    "ejs": "~2.4.1",
+    "express": "~4.13.4",
+    "jsonwebtoken": "^7.1.9",
+    "morgan": "^1.7.0",
+    "multer": "^1.2.0",
+    "request": "^2.74.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.10.2"
+  }
+}
